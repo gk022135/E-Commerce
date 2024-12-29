@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Navbar.css';
+import Cart from "./Cart";
 
 
 function Navbar() {
@@ -58,9 +59,10 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
+            <Cart />
 
             <div className="menuPannel">
-                <button onClick={handleClick}>Click Menu</button>
+                <button onClick={handleClick}>Menu</button>
 
                 {isMenuOpen && (
                     <div className="dropdown-menu">

@@ -1,0 +1,23 @@
+.Cart-Image{
+    position:sticky;
+    z-index: 10;
+}
+.Cart-Image img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.Cart-Count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+}
+.Cart-Count p{
+    border: solid red;
+    border-radius: 100px;
+
+    margin-top: 50px;
+    margin-left: 20px;
+}

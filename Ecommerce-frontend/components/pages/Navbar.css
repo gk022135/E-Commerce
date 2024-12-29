@@ -97,3 +97,19 @@
     height: 35px;
     background-color: #ff0e0e;
 }
+@media screen and (max-width: 415px) {
+   .Navbar-main{
+     max-width: 415px;
+   }
+   .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 200px;
+    
+   }
+   .logout button{
+    margin: 10px;
+   }
+
+}
