@@ -9,6 +9,13 @@
 }
 .Marquee-tag img{
     height: 200px;
+    width: auto;
     margin: 5px;
     border-radius: 20px;
+}
+.Marquee-tag img:hover{
+    cursor: pointer;
+    height: 205px;
+    box-shadow: rgb(3, 59, 52) 0px 2px 40px 10px;
+    animation: normal;
 }

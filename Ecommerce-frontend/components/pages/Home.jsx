@@ -25,6 +25,8 @@ export function Home(){
         </div>
         <div>
             <h1>now you are at home page broo!!</h1>
+            
+            
         </div>
 
         </>
