@@ -1,0 +1,48 @@
+.Details{
+    
+    border-radius: 10px;
+    width: 240px;
+    height: 300px;
+    cursor: pointer;
+
+}
+.Details h3{
+    color: black;
+    text-overflow:ellipsis;
+}
+.Details p{
+    color: black;
+    text-overflow:ellipsis;
+}
+.rating{
+    
+    width: 200px;
+    border-radius: 10px;
+}
+.rating b{
+    background-color: aqua;
+    border: solid green;
+   padding: 2px;
+}
+.Details p{
+    color: blue;
+    cursor:pointer;
+}
+
+.Details h3{
+    font-size: medium;
+}
+
+.Cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buy{
+    background-color: rgb(91, 235, 24);
+    color: black;
+}
+.add{
+    background-color: rgb(216, 123, 17);
+    color: black;
+}

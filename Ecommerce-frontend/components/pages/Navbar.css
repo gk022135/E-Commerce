@@ -1,0 +1,99 @@
+.Navbar-main{
+    
+    border-radius: 5px;
+    top: 0;
+    background-color: #0e0d0d;
+    width: 99.5rem;
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.2rem;
+   
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+.Navbar-main:hover{
+    box-shadow: #000b0c 0px 0px 15px 10px;
+}
+.nav-container{
+    width: 25rem;
+    background-color: #220029;
+    border-radius: 2rem;
+    border: solid ;
+}
+.nav-container ul{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.menuPannel button{
+    margin-right: 10px;
+    color: #070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    background-color: #14e9f8;
+    z-index: 300;
+    
+}
+@media screen and (max-width: 960px) {
+    /* Hide the nav-container */
+    .Navbar-main{
+        width: 49.5rem;
+    }
+    .nav-container {
+        display: none; /* Completely hides the nav-container */
+    }
+ }
+ 
+
+.logo-container{
+    z-index: 1;
+    
+}
+.logo-container img{
+    top: 2px;
+    height: px;
+    width: 150px;
+    border-radius: 50px;
+}
+.dropdown-menu{
+    color: #070707;
+    padding: 2%;
+    border: solid black;
+    border-radius: 20px;
+    margin-top: 450px;
+    margin-right: 20px;
+    z-index: 20;
+    background-color: rgb(7, 129, 82);
+    width: 300px;
+    height: 400px;
+    display: flexbox;
+    justify-content: center;
+}
+.dropdown-menu ul{
+    color: black;
+    list-style: none;
+    margin-top: 0px;
+    padding: 10px;
+    margin-left: 20px;
+   
+}
+
+.close{
+ display: flex;
+ justify-content: right;
+}
+
+.logout button{
+    margin-top: 200px;
+    margin-left: 120px;
+    height: 35px;
+    background-color: #ff0e0e;
+}

@@ -1,0 +1,12 @@
+.Product-Image{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.Product-Image img{
+    border-radius: 20px;
+    height: 200px;
+    width: 240px;
+}

@@ -1,0 +1,14 @@
+.Marquee-tag{
+    background-color: rgb(172, 172, 147);
+    border: solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.Marquee-tag img{
+    height: 200px;
+    margin: 5px;
+    border-radius: 20px;
+}
