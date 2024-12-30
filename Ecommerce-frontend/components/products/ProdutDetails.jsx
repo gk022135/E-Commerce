@@ -5,6 +5,7 @@ function ProductDetails(props){
 
     return(
         <div className="Details">
+            <p>{props.id}</p>
             <p>spicy Samosa with stuffing of potatoes and peanuts</p>
             <p className="rating"><b>{props.stars}</b>  ({props.reviews})</p>
 

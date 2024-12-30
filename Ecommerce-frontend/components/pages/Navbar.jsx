@@ -5,10 +5,8 @@ import Cart from "./Cart";
 
 
 function Navbar() {
-    // State to track if the dropdown menu is open or closed
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    // Toggle the menu visibility when button is clicked
     const handleClick = () => {
         setIsMenuOpen(prevState => !prevState); // Toggle the state
     };
